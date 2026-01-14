@@ -57,6 +57,7 @@
     (format s "    <title>HN Personal Websites</title>~%")
     (format s "  </head>~%")
     (format s "  <body>~%")
+    (format s "    <!-- ~a entries -->~%" (length items))
     (format s "    <outline text=\"HN Personal Websites\" title=\"HN Personal Websites\">~%")
     (loop for item in items
           do (format s "~a" (make-opml-outline item)))
@@ -112,6 +113,7 @@
     (format s "  </head>~%")
     (format s "  <body>~%")
     (format s "    <h1>HN Personal Websites</h1>~%")
+    (format s "    <div>(~a websites)</div>~%" (length items))
     (format s "    <main>~%")
     (loop for item in items
           do (format s "~a" (make-html-card item)))
