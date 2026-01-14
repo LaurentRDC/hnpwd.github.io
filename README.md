@@ -5,8 +5,8 @@ Hello!  This project provides a directory personal blogs from the
 Hacker News (HN) community along with an OPML file.  Please visit the
 following link to view these resources:
 
-* [HN Personal Blogs Website][site]
-* [OPML][opml]
+* [hnblogs.github.io][site]
+* [blogs.opml][opml]
 
 [site]: https://hnblogs.github.io/
 [opml]: https://hnblogs.github.io/blogs.opml
